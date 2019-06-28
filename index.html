@@ -7,7 +7,14 @@
   <title>xmpp link test</title>
   <meta name="description" content="test">
   <meta name="author" content="test">
-
+  <script>
+    function OnPresenceStateChanged(jid, basicPresence, localizedPresence) 
+                                 {
+                                          console.log(jid);
+                                          console.log(basicPresence);
+                                          console.log(localizedPresence);                                                   
+                                 }           
+  </script>
 </head>
 
 <body>
